@@ -1,0 +1,76 @@
+#root {
+	height: 100%;
+}
+.swiperContainer {
+	width: 100%;
+	height: 100%;
+	padding: 1em 0 5em 0;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.swiper-slide .title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.heroSlider {
+	position: relative;
+}
+.heroSliderWrap {
+	position: absolute;
+	padding: 20px;
+	top: 5%;
+	width: 37%;
+	left: 18.5%;
+	z-index: 3;
+}
+.heroSliderWrap h2,
+.heroSliderWrap p {
+	text-shadow: 2px 2px 20px #c0b979;
+	color: #fff;
+	z-index: 999;
+}
+.heroSliderWrap h2 {
+	font-size: 2.5em;
+}
+.heroSliderWrap p {
+	font-size: 1.5em;
+}
+.heroSliderWrap::after {
+	//position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: "";
+	background-color: #ffeb3b;
+	opacity: 0.8;
+	z-index: -1;
+}

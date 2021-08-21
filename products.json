@@ -1,16 +1,26 @@
 [
   {
-    "title": "Snipcart Logo Sticker",
+    "time": "12 Sep, 15:00 – 15:40 BST",
+    "title": "GONG STICKS IN THE PARK with Drew Sinclair",
     "id": "sticker_logo",
-    "description": "Show off your Snipcart support with a logo sticker!",
+    "description": "Gong Sticks  is a joyful, body-mind practice from the Tai Chi Health System. The 16 Mindful Movements are supported by a bamboo cane for stability and fluidity. Improves joint strength & flexibility, stress & emotions, and mental clarity.    Just turn  in comfy clothes and we'll provide the bamboo.",
     "price": "2.00",
     "image": "/images/sticker-single.jpg"
   },
   {
+    "time": "12 Sep, 15:00 – 15:40 BST",
     "title": "Snipcart Logo Sticker Pack",
     "id": "sticker_logo_pack",
     "description": "Get a pack of 3 Snipcart logo stickers.",
     "price": "4.00",
-    "image": "/images/sticker-3pack.jpg"
+    "image": "/images/sticker-3pack.png"
+  },
+  {
+    "time": "12 Sep, 15:00 – 15:40 BST",
+    "title": "GONG STICKS IN THE PARK with Drew Sinclair",
+    "id": "sticker_logo1",
+    "description": "Gong Sticks  is a joyful, body-mind practice from the Tai Chi Health System. The 16 Mindful Movements are supported by a bamboo cane for stability and fluidity. Improves joint strength & flexibility, stress & emotions, and mental clarity.    Just turn  in comfy clothes and we'll provide the bamboo.",
+    "price": "2.00",
+    "image": "/images/VIBHA.png"
   }
 ]

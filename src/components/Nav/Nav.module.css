@@ -1,50 +1,61 @@
 .nav {
-  padding: 1rem 0;
+	padding: 1rem 0;
+	background-color: #ffeb3b;
+	color: #fff;
 }
 
 @media (max-width: 600px) {
-  .nav {
-    flex-direction: column;
-    align-items: center;
-  }
+	.nav {
+		flex-direction: column;
+		align-items: center;
+	}
 }
-
+@media (max-width: 420px) {
+	.menuItems {
+		background-color: aqua;
+		display: none;
+	}
+}
+.menuItems {
+	display: flex;
+	align-items: center;
+}
 .navContainer {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
 }
 
 .title {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .title a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 2rem;
+	margin: 0;
+	line-height: 1.15;
+	font-size: 2rem;
 }
 
 .title,
 .description {
-  text-align: center;
+	text-align: center;
 }
 
 .description {
-  line-height: 1.5;
-  font-size: 1.5rem;
-  margin: 0;
+	line-height: 1.5;
+	font-size: 1.5rem;
+	margin: 0;
 }
 
 .description a {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .description svg {
-  margin-right: .4em;
+	margin-right: 0.4em;
 }
