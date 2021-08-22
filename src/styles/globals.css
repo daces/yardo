@@ -6,7 +6,9 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+#about {
+	background-color: #ffeb3b;
+}
 a {
 	color: inherit;
 	text-decoration: none;
@@ -83,7 +85,12 @@ button::before {
 .swiper-container {
 	width: 100%;
 	padding-top: 1em;
-	background-color: #ffeb3b;
+	background: rgb(255, 250, 104);
+	background: radial-gradient(
+		circle,
+		rgba(255, 250, 104, 1) 20%,
+		rgba(255, 235, 59, 1) 100%
+	);
 }
 .swiper-wrapper {
 	width: 50%;
@@ -93,7 +100,7 @@ button::before {
 	text-align: center;
 	width: auto;
 }
-.slide-image {
+.hero-slider > div {
 	height: 450px;
 	width: auto;
 	box-shadow: #3f3f3f -15px 45px 65px -25px;

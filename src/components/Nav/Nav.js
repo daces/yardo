@@ -19,7 +19,7 @@ const Nav = ({ children }) => {
 					<Link href="/">
 						<a>Programes</a>
 					</Link>
-					<Link href="/">
+					<Link href="/about">
 						<a>About</a>
 					</Link>
 				</span>

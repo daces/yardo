@@ -53,8 +53,8 @@
 }
 .heroSliderWrap h2,
 .heroSliderWrap p {
-	text-shadow: 2px 2px 20px #c0b979;
-	color: #fff;
+	text-shadow: 2px 2px 20px #fff;
+	color: #333;
 	z-index: 999;
 }
 .heroSliderWrap h2 {
@@ -64,7 +64,7 @@
 	font-size: 1.5em;
 }
 .heroSliderWrap::after {
-	//position: absolute;
+	/position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;

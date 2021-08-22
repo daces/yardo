@@ -1,3 +1,11 @@
+import Image from "next/image";
+// import fourPic from "../../public/images/carousel/4.png";
+import fourPic from "../../public/images/carousel/4.png";
+import thirteenPic from "../../public/images/carousel/13.png";
+import elevenPic from "../../public/images/carousel/11.png";
+import twentyPic from "../../public/images/carousel/20.jpg";
+import nineteenPic from "../../public/images/carousel/19.png";
+import eightteenPic from "../../public/images/carousel/18.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
 	Autoplay,
@@ -5,6 +13,7 @@ import SwiperCore, {
 	Navigation,
 	EffectFade,
 } from "swiper/core";
+
 // Import Swiper styles
 import slide from "./Slider.module.css";
 
@@ -49,32 +58,68 @@ const BasicSlider = ({ Component, pageProps }) => {
 			</div>
 			<SwiperSlide>
 				<div className="hero-slider">
-					<img className="slide-image" src="/images/carousel/4.png" />
+					<Image
+						width="600"
+						height="450"
+						src={fourPic}
+						alt="Picture of the author"
+					/>
+					{/* <img className="slide-image" src="/images/carousel/4.png" /> */}
 				</div>
 			</SwiperSlide>
 			<SwiperSlide>
 				<div className="hero-slider">
-					<img className="slide-image" src="/images/carousel/13.png" />
+					<Image
+						width="600"
+						height="450"
+						src={thirteenPic}
+						alt="Picture of the author"
+					/>
+					{/* <img className="slide-image" src="/images/carousel/13.png" /> */}
 				</div>
 			</SwiperSlide>
 			<SwiperSlide>
 				<div className="hero-slider">
-					<img className="slide-image" src="/images/carousel/11.png" />
+					<Image
+						width="600"
+						height="450"
+						src={elevenPic}
+						alt="Picture of the author"
+					/>
+					{/* <img className="slide-image" src="/images/carousel/11.png" /> */}
 				</div>
 			</SwiperSlide>
 			<SwiperSlide>
 				<div className="hero-slider">
-					<img className="slide-image" src="/images/carousel/20.jpg" />
+					<Image
+						width="600"
+						height="450"
+						src={twentyPic}
+						alt="Picture of the author"
+					/>
+					{/* <img className="slide-image" src="/images/carousel/20.jpg" /> */}
 				</div>
 			</SwiperSlide>
 			<SwiperSlide>
 				<div className="hero-slider">
-					<img className="slide-image" src="/images/carousel/19.png" />
+					<Image
+						width="600"
+						height="450"
+						src={nineteenPic}
+						alt="Picture of the author"
+					/>
+					{/* <img className="slide-image" src="/images/carousel/19.png" /> */}
 				</div>
 			</SwiperSlide>
 			<SwiperSlide>
 				<div className="hero-slider">
-					<img className="slide-image" src="/images/carousel/18.png" />
+					<Image
+						width="600"
+						height="450"
+						src={eightteenPic}
+						alt="Picture of the author"
+					/>
+					{/* <img className="slide-image" src="/images/carousel/18.png" /> */}
 				</div>
 			</SwiperSlide>
 			...

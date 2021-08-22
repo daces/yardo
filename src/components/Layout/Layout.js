@@ -10,10 +10,10 @@ const Layout = ({ children }) => {
 	return (
 		<div className={styles.layout}>
 			<Nav />
-			<BasicSlider />
-			<Intro />
+			{/* <BasicSlider /> */}
+			{/* <Intro /> */}
 			{children}
-			<Donate />
+			{/* <Donate /> */}
 			<MapContact />
 			<Footer />
 		</div>

@@ -1,7 +1,8 @@
 .nav {
 	padding: 1rem 0;
-	background-color: #ffeb3b;
-	color: #fff;
+	background-color: #fff;
+	//background-color: #ffeb3b;
+	color: #333;
 }
 
 @media (max-width: 600px) {
@@ -19,6 +20,9 @@
 .menuItems {
 	display: flex;
 	align-items: center;
+}
+.menuItems a {
+	margin-right: 10px;
 }
 .navContainer {
 	display: flex;

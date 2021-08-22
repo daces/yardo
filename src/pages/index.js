@@ -3,6 +3,9 @@ import Link from "next/link";
 
 import Layout from "@components/Layout";
 import Container from "@components/Container";
+import BasicSlider from "@components/basicSlider";
+import Intro from "@components/Intro/intro";
+import Donate from "@components/Donate/donate";
 import styles from "@styles/Home.module.css";
 
 import products from "../../products.json";
@@ -12,6 +15,8 @@ export default function Home() {
 			<Head>
 				<title>Snipcart Store</title>
 			</Head>
+			<BasicSlider />
+			<Intro />
 			<div>
 				<h1 className={styles.events}>EVENTS & COURSES</h1>
 				<p className={styles.events}>
@@ -53,6 +58,7 @@ export default function Home() {
 					})}
 				</div>
 			</Container>
+			<Donate />
 		</Layout>
 	);
 }

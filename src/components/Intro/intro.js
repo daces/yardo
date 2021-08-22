@@ -3,7 +3,11 @@ import styles from "./Intro.module.css";
 import img from "../../../public/images/dandelion.png";
 const Intro = () => {
 	return (
-		<div style={{ backgroundImage: "url(" + img + ")" }} className={styles.intro}>
+		<div className={styles.intro}>
+			<div
+				style={{ backgroundImage: "url(" + img + ")" }}
+				className={styles.overlay}
+			></div>
 			<h2>Unique Wellness opportunities for Acton & Ealing</h2>
 			<p>
 				"Yardo is inspired by my experiences of community-centred culture in the
